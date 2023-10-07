@@ -2,7 +2,7 @@
 Ce repo présente quelques projets que je juge intéressants pour avoir une idée de ce que je fais.
 
 ## Git Report (ReactJS)
-Site: [Git Report](https://git-report.com/#how-it-works)
+Site: [Git Report](https://git-report.com/)
 
 GitHub: [Git Report](https://github.com/adrien-nf/git-report-web)
 
