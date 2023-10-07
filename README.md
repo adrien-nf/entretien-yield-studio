@@ -1,19 +1,10 @@
 # Entretien Yield Studio
 Ce repo présente quelques projets que je juge intéressants pour avoir une idée de ce que je fais.
 
-## Git Report (ReactJS)
-Site: [Git Report](https://git-report.com/)
-
-GitHub: [Git Report](https://github.com/adrien-nf/git-report-web)
-
-Projet permettant de gérer des rapports à partir de son historique de commits, j'ai plutôt géré la partie front-end, tandis que mon collègue a géré la partie back-end (en C#). Parfois nous avions des sessions de Peer Programming.
-
-Le design du site a été réalisé en collaboration sur Figma, où nous avons faits des mockups.
-
 ## Smartofus (Laravel/ReactJS)
 Site: [Smartofus](https://www.smartofus.net/)
 
-Le code source étant privé, je vais plutôt décrire quelques fonctionnements intéressants.
+Le code source étant privé, je vais plutôt décrire quelques fonctionnements intéressants. Je suis seul à travailler sur ce projet actuellement.
 
 Ce projet est un site communataire contenant divers outils pour aider les joueurs d'un jeu vidéo. Il s'agit d'un de mes plus gros projets: au demeurant simple, il a été complexe au niveau de l'architecture, de la gestion des données et du scripting notamment.
 
@@ -42,13 +33,25 @@ Une fois une version finie et prête à être déployée, la branche "master" es
 ### Améliorations
 Le site reçoit actuellement quelques dizaines à quelques centaines de visites quotidiennes. Il est question de mettre en place une optimisation de chargement des images: si un "Lazy Loading" a été implémenté (en dev), il s'agit désormais de mettre en place un CDN qui distribuerait les images également, afin que la charge ne soit pas sur mon VPS.
 
+Diverses fonctionnalités sont également en cours d'ajout.
+
+## Git Report (ReactJS)
+Site: [Git Report](https://git-report.com/)
+
+GitHub: [Git Report](https://github.com/adrien-nf/git-report-web)
+
+Projet permettant de gérer des rapports à partir de son historique de commits, j'ai plutôt géré la partie front-end, tandis que mon collègue a géré la partie back-end (en C#). Parfois nous avions des sessions de Peer Programming. Ce site a été donc été réalisé à 2.
+
+Le design du site a été réalisé en collaboration sur Figma, où nous avons faits des mockups.
+
 ## Minecraft Server Status (PHP Vanilla)
 Package: [Minecraft Server Status](https://packagist.org/packages/adrien-nf/minecraft-server-status)
 
 GitHub: [Minecraft Server Status](https://github.com/adrien-nf/minecraft-server-status)
 
-Système de communication avec les serveurs Minecraft, il permet d'obtenir des informations sur l'état actuel du serveur: joueurs en ligne, plugins, "Message of the Day", ...
+Système de communication avec les serveurs Minecraft, il permet d'obtenir des informations sur l'état actuel du serveur: joueurs en ligne, plugins, "Message of the Day", ... Ce projet a été réalisé seul.
 
 J'ai développé cette librairie pour l'utiliser sur un site de création de serveurs Minecraft, où un joueur lambda peut créer un serveur entièrement par interface web, sans avoir besoin de s'y connaître. Ce site n'est pas actuellement en ligne.
 
-Voici quelques captures d'écran intéressantes de la librairie:
+### Améliorations
+Le projet a été prévu pour la version Java des serveurs Minecraft. Je savais que je désirais l'étendre aux serveurs Bedrock, ainsi j'ai prévu la librairie pour aisément l'étendre au fonctionnement de ce second type de serveur, les protocoles étant différents.
